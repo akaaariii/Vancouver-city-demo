@@ -1,0 +1,56 @@
+* {
+    margin: 0 auto;
+    width: 800px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.header-title {
+    font-size: 1.6em;
+    margin: 0;
+    font-weight: 800;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+ul {
+    list-style-type: none; 
+}
+
+li {
+    float: right;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #4682b4;
+    display: inline-block;
+}
+
+.main-pic img {
+    width: 100%;
+}
+
+.main-pic small {
+    color: #888;
+}
+
+.section-title {
+    font-size: 2em;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 800;
+    margin: 8px;
+}
+
+.subtitle {
+    font-size: 1.6em;
+    color: #888;
+    margin: 0;
+    padding: 8px;
+}
+
+.section-sightseeing {
+    background-color: #4682b4;
+}
+
+.sightseeing-text {
+    color: white;
+}
