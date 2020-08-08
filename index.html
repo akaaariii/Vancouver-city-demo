@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow&amp;display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Tajawal&amp;display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Tajawal&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre&display=swap" rel="stylesheet" />
     <title>Vancouver City</title>
 </head>
-
 <body>
     <header>
-        <h2 class="header-title">VANCOUVER CITY</h2>
-        <nav class="menu">
+        <h2 class="header-logo">VANCOUVER CITY</h2>
+        <nav class="header_menu">
             <ul>
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#sightseeing">SIGHTSEEING</a></li>
@@ -23,37 +21,80 @@
             </ul>
         </nav>
     </header>
-    <div class="main-pic">
-        <img src="https://admiring-lamarr-f5cb12.netlify.app/first/image/20191010073327_IMG_0910.JPG" alt="Vancouver Harbour">
-        <small>Vancouver Harbour 2019/9/13</small>
-    </div>
-    <div class="section-about">
-        <h2 class="section-title">About</h2>
-        <h3 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
-        <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet odio varius,
-            mattis leo sed, fringilla urna. In lorem lectus, tempus non egestas a, vestibulum quis ligula. Nulla
-            facilisi. Mauris vehicula luctus dolor in tristique. Nullam et leo nulla. Cras porttitor commodo nibh, vel
-            ornare risus commodo ut. Nullam ut lorem in est porta bibendum eu id dui. Praesent quis felis aliquet nisi
-            sagittis sodales. Ut varius, justo ac blandit viverra, purus felis aliquam purus, a bibendum dui metus
-            faucibus nulla. Vivamus auctor dui ante, eget aliquet magna tempor sed. Nunc hendrerit facilisis nisl.</p>
-    </div>
-    <div class="section-sightseeing">
-        <h2 class="section-title">Sightseeing</h2>
-        <p class="sightseeing-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet odio
-            varius, mattis leo sed, fringilla urna. In lorem lectus, tempus non egestas a, vestibulum quis ligula. Nulla
-            facilisi. Mauris vehicula luctus dolor in tristique. Nullam et leo nulla. Cras porttitor commodo nibh, vel
-            ornare risus commodo ut.</p>
-        <a class="button" href="" type="button">Click here!</a>
-    </div>
-    <div class="section-contact">
-        <h2 class="section-title">Contact</h2>
-        <h3 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-        <input type="text" placeholder="Your name">
-        <textarea name="message" cols="90" rows="20"></textarea>
-        <input class="button button-secondaly" type="submit">
-    </div>
-    <footer class="l-footer">
-        <p class="copy-right">2020&copy;Akari - All rights reserved</p>
+    <main>
+        <section class="section">
+            <div class="top-pic">
+                <img src="https://admiring-lamarr-f5cb12.netlify.app/first/image/20191010073327_IMG_0910.JPG"
+                    alt="Vancouver Harbour">
+            </div>
+            <small>Vancouver Harbour 2019/9/13</small>
+        </section>
+        <section class="section">
+            <h2 class="section-title">About</h2>
+            <div class="content">
+                <div class="section-column">
+                    <h3 class="topic-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                </div>
+                <div class="section-column">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet
+                        odio
+                        varius,
+                        mattis leo sed, fringilla urna. In lorem lectus, tempus non egestas a, vestibulum quis ligula.
+                        Nulla
+                        facilisi. Mauris vehicula luctus dolor in tristique. Nullam et leo nulla. Cras porttitor commodo
+                        nibh,
+                        vel
+                        ornare risus commodo ut. Nullam ut lorem in est porta bibendum eu id dui. Praesent quis felis
+                        aliquet
+                        nisi
+                        sagittis sodales. Ut varius, justo ac blandit viverra, purus felis aliquam purus, a bibendum dui
+                        metus
+                        faucibus nulla. Vivamus auctor dui ante, eget aliquet magna tempor sed. Nunc hendrerit facilisis
+                        nisl.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="section section-sightseeing">
+            <h2 class="section-title">Sightseeing</h2>
+            <div class="content">
+                <div class="section-column">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit
+                        amet
+                        odio
+                        varius, mattis leo sed, fringilla urna. In lorem lectus, tempus non egestas a, vestibulum quis
+                        ligula.
+                        Nulla
+                        facilisi. Mauris vehicula luctus dolor in tristique. Nullam et leo nulla. Cras porttitor commodo
+                        nibh,
+                        vel
+                        ornare risus commodo ut.</p>
+                    <a href="#" class="button" type="button">Click here!</a>
+                </div>
+                <div class="section-column">
+                    <div class="sightseeing-img">
+                        <img src="https://admiring-lamarr-f5cb12.netlify.app/first/image/20191010072935_IMG_0896.JPG"
+                            alt="location1">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <h2 class="section-title">Contact</h2>
+            <h3 class="topic-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+            <div class="contact-form">
+                <div class="field">
+                    <input class="input" type="text" placeholder="Your name" name="name">
+                </div>
+                <div class="field">
+                    <textarea class="textarea" name="message"></textarea>
+                </div>
+                <a href="#" class="button button-secondary" type="submit">submit</a>
+            </div>
+        </section>
+    </main>
+    <footer class="section-footer">
+        <p class="copy-right">2020 Akari - All rights reserved</p>
     </footer>
 </body>
 
